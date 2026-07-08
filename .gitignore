@@ -1,0 +1,31 @@
+# ========== 模型文件（太大不上传）==========
+model/
+bge-m3/
+
+# ========== 文档 ==========
+*.md
+!README.md
+
+# ========== 密钥（含 API Key 不上传）==========
+.env
+settings.yaml
+
+# ========== GraphRAG 运行时产物 ==========
+cache/
+output/
+logs/
+update_output/
+
+# ========== Python 缓存 ==========
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# ========== 模型下载锁文件 ==========
+*.lock
+
+# ========== IDE 配置 ==========
+.vscode/
+.idea/
